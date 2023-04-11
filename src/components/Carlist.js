@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AgGridReact } from 'ag-grid-react';
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-material.css';
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-material.css';
 import Button from'@mui/material/Button';
 import Addcar from "./Addcar";
 import Editcar from "./Editcar";
@@ -12,7 +12,7 @@ export default function Carlist() {
     useEffect(() => fetchData(), []);
 
     const fetchData = () => {
-      fetch('http://carrestapi.herokuapp.com/cars')
+      fetch('https://carrestapi.herokuapp.com/cars')
         .then(response => response.json())
         .then(data => setCars(data._embedded.cars))
     }
@@ -26,7 +26,7 @@ export default function Carlist() {
     };
 
     const saveCar = (car) =>{
-        fetch('http://carrestapi.herokuapp.com/cars', {
+        fetch('https://carrestapi.herokuapp.com/cars', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
