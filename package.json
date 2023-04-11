@@ -2,7 +2,7 @@
   "name": "carshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jiikiam.github.io/carshop",
+  "homepage": "https://Jiikiam.github.io/Reactcarshop",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
