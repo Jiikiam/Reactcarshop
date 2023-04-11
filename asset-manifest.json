@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/carshop/static/css/main.0597ef04.css",
-    "main.js": "/carshop/static/js/main.3aff50e6.js",
+    "main.js": "/carshop/static/js/main.466b18c8.js",
     "static/js/787.24b4dcb8.chunk.js": "/carshop/static/js/787.24b4dcb8.chunk.js",
     "index.html": "/carshop/index.html",
     "main.0597ef04.css.map": "/carshop/static/css/main.0597ef04.css.map",
-    "main.3aff50e6.js.map": "/carshop/static/js/main.3aff50e6.js.map",
+    "main.466b18c8.js.map": "/carshop/static/js/main.466b18c8.js.map",
     "787.24b4dcb8.chunk.js.map": "/carshop/static/js/787.24b4dcb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0597ef04.css",
-    "static/js/main.3aff50e6.js"
+    "static/js/main.466b18c8.js"
   ]
 }
